@@ -24,8 +24,7 @@ public class CardTrick {
             c.setValue((int) (Math.random() * (13) + 1));
             c.setSuit(Card.SUITS[(int) (Math.random() * (4))]);
             magicHand[i] = c;
-        }
-        Scanner sc = new Scanner(System.in);
+        }      
         Card luckyCard = new Card();
         luckyCard.setValue(5);
         luckyCard.setSuit("Hearts");
